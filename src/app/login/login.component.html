@@ -1,0 +1,64 @@
+<!--<form [FormBuilder] ="loginForm">
+
+<div class="field">
+    <label for="username">UserName:</label>
+    <input  type="text" matInput placeholder="Type your email" name="username" class="w-full" />
+</div>
+<div class="field">
+    <label for="password">Password:</label>
+    <input  type="text" matInput placeholder="Type your password" name="password" class="w-full" />
+</div>
+
+<button label="Log In" style="w-full"></button>
+<div class="mt-2" >Not a member ? <a routerLink = "/register">Register</a></div>
+
+
+</form> -->
+
+
+
+<form>
+<div class="field">
+    
+    <table>
+        <tbody>
+            <tr>
+            <td>
+                <label>User Name:</label>
+            </td>
+            <td><input matInput placeholder="" name="usename"></td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Password:</label>
+                </td>
+                <td>
+                    <input matInput placeholder="" value="" name="password" type="password">
+                </td>
+            </tr>
+            <tr>
+            <td>
+                <button type="submit" color="primary" (click)="login()">Login</button>
+                
+            </td>
+            <td>
+                <button type="submit" color="primary" (click)="register()">Register</button>
+               
+            </td>
+            </tr>
+        </tbody>
+    </table>
+   
+</div>
+      </form>
+  
+  
+    
+
+
+
+
+
+
+     
+  
